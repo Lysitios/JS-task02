@@ -1,0 +1,293 @@
+body {
+	background-color: RGB(240,240,240);
+}
+
+.headercss-01 {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 3.4rem;
+	background-color: RGB(41,189,224);
+}
+
+.headericon-01 {
+	width: 34px;
+	height: 27px;
+	margin-left: 0.5rem;
+	background: url(./images/css_sprites.png) -10px -305px;
+	transform: scale(0.5);
+}
+
+.topdiv-01 {
+	position: relative;
+	top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+    border: 1px solid RGB(208,208,208);
+	background-color: white;
+}
+
+.topblank-01 {
+	width: 24px;
+	height: 40px;
+	transform: scale(0.5);
+}
+
+.topgame-01 {
+	font-size: 1.7rem;
+	color: RGB(154,154,154);
+}
+
+.toparr-01 {
+	width: 24px;
+	height: 40px;
+	background: url(./images/css_sprites.png) -379px -85px;
+	transform: scale(0.5);
+}
+
+.maindiv-01 {
+	position: relative;
+	top: 6.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 0;
+	padding-left: 0;
+	border: 1px solid RGB(208,208,208);
+	background-color: white;
+
+}
+
+.maingame-01 {
+	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	font-size: 1.7rem;
+	color: RGB(251,180,53);
+	border-bottom: 1px solid RGB(251,180,53);
+}
+
+.mainedition-01 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-top: 1rem;
+}
+
+.mainedi-01 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+}
+
+.btncss-01 {
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-size: 1.6rem;
+	color: white;
+	background-color: RGB(105,209,233);
+	border: 0;
+	border-radius: 0;
+}
+
+.pcss-01 {
+	width: 100%;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+	font-size: 1.2rem;
+	color: RGB(154,154,154);
+}
+
+
+.mainblank-01 {
+	width: 28px;
+	height: 55px;
+	transform: scale(0.5);
+}
+
+.maintri-01 {
+	position: relative;
+	bottom: 1.8rem;
+	width: 28px;
+	height: 55px;
+	background: url(./images/css_sprites.png) -379px -10px;
+    transform: scale(0.5);
+}
+
+.circle-01 {
+	display: flex;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+
+.btncircle-01 {
+	padding: 0.35rem;
+	margin-right: 0.35rem;
+	margin-left: 0.35rem;
+	background-color: RGB(180,180,180);
+	border: 0;
+	border-radius: 50%;
+}
+
+.btncircol-01 {
+	background-color: RGB(105,209,233);
+}
+
+.prenew {
+	margin-bottom: 0;
+}
+
+button.btnoutline:focus {
+	color: black;
+	outline: none;
+}
+
+.headercss-04 {
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.7rem;
+	color: white;
+	width: 100%;
+	height: 3.4rem;
+	background-color: RGB(41,189,224);
+}
+
+.headerli-04 {
+	width: 47px; 
+	height: 47px;
+    background: url(./images/04-css_sprites.png) -10px -10px;
+    transform: scale(0.6);
+}
+
+.headerri-04 {
+	width: 47px; 
+	height: 47px;
+    background: url(./images/04-css_sprites.png) -10px -71px;
+    transform: scale(0.6);
+}
+
+.main-04 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainplay-04 {
+	position: relative;
+	top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.7rem;
+	width: 98%;
+	height: 3.4rem;
+	background-color: white;
+}
+
+.mainnum-04 {
+	position: relative;
+	top: 4.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.4rem;
+	width: 98%;
+	height: 15rem;
+	background-color: white;
+}
+
+.orange-04 {
+	display: inline-block;
+    text-align: center;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-color: RGB(238,159,27);
+}
+
+.blue-04 {
+	display: inline-block;
+    text-align: center;
+	width: 0.7rem;
+	height: 0.7rem;
+	background-color: RGB(41,189,224);
+}
+
+.mainblk-04 {
+	position: relative;
+	top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	width: 98%;
+	height: 10rem;
+	background-color: white;
+}
+
+.mainipt-04 {
+	position: relative;
+	top: 5.5rem;
+	display: flex;
+	justify-content: center;
+	padding: 0.5rem;
+	width: 98%;
+	height: 10rem;
+	background-color: white;
+}
+
+.iptltxt-04 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 2rem;
+	font-size: 1.5rem;
+}
+
+.ipt-04 {
+	width: 70px;
+	height: 2rem;
+}
+
+.iptrtxt-04 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 0.5rem;
+	height: 2rem;
+	font-size: 1.5rem;
+	color: orange;
+}
+
+.btncss-04 {
+	position: relative;
+	top: 6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.7rem;
+	color: white;
+	width: 98%;
+	height: 3.4rem;
+	background-color: RGB(238,159,27);
+	outline: none;
+}

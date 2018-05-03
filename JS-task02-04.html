@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<title>设置参数</title>
+	<link rel="stylesheet" type="text/css" href="JS-task02.css">
+</head>
+
+<body>
+	 <header>
+		 <div class="headercss-04">
+		     <div class="headerli-04"></div>
+		     <div class="headerp-04">参数设置</div>
+		     <div class="headerri-04"></div>
+		 </div>
+	 </header>
+
+	  <main class="main-04">
+	  	<div class="mainplay-04">玩家配比</div>
+	  	<div class="mainnum-04">
+	  		<div>
+	  			<span class="orange-04"></span>
+	  			<span id="assin">杀手 人</span>
+	  		</div>
+	  		<div>
+	  			<span class="blue-04"></span>
+	  			<span id="civil">平民 人</span>
+	  		</div>
+	  	</div>
+	  	<div class="mainblk-04" id="mblk"></div>
+	  	<div class="mainipt-04">
+	  		<span class="iptltxt-04"><b>请输入玩家数量：</b></span>
+	  		<input type="text" min="4" max="18" class="ipt-04" id="iptnum" onchange="iptset()"></input>
+	  		<span class="iptrtxt-04">玩家数量为4-18</span>
+	  	</div>
+	  	<button class="btncss-04">去发牌</button>
+	  </main>
+</body>
+<script src="JS-task02.js"></script>
+</html>
